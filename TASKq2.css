@@ -1,0 +1,13 @@
+table,th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: large;
+}
+
+th{
+    color: blue;
+    background-color: gainsboro;
+}
+tr:nth-child(even){
+    background-color: rgb(143, 205, 49);
+}
